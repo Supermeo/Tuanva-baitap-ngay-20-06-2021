@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background-color: #FFD2FF;
+}
+
+.head > h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.head > p {
+    letter-spacing: 3px;
+    text-indent: 50px;
+}

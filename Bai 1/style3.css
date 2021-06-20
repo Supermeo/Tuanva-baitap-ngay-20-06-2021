@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border : 1px solid black;
+    box-shadow: 0 5px #888888;
+}
+
+.head > h1 {
+    color: #FF3399;
+    background-color: #FECFFD;
+    text-align: center;
+}
+
+.title > p {
+    background-color: #FFFFCC;
+    font-style: italic;
+    text-align: center;
+}
+
+.title > p:nth-child(1), p:nth-child(2), p:nth-child(3) {
+    color: royalblue;
+}
+
+.title > p:nth-child(4), p:nth-child(5), p:nth-child(6) {
+    color: red;
+}
+
+.title > p:nth-child(7), p:nth-child(8), p:nth-child(9) {
+    color: green;
+}
